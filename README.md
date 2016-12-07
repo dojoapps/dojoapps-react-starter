@@ -7,14 +7,13 @@ $ npm install
 ```
 $ npm run dev
 ```
-And open in browser: [http://localhost:3769](http://localhost:3769)
 
 ## Build
 ```
 $ npm run build
 ```
 
-## Run karma
+## Run Jest
 ```
 $ npm test
 ```
