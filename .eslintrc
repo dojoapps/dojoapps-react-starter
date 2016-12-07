@@ -1,0 +1,35 @@
+{
+  "extends": "eslint-config-airbnb",
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "globals": {
+      "If": true,
+      "For": true,
+      "connect": true,
+      "google": true,
+      "FB": true
+  },
+  "rules": {
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2,
+    "react/react-in-jsx-scope": 2,
+    "react/jsx-filename-extension": 0,
+    "import/prefer-default-export": 0,
+    "block-scoped-var": 0,
+    "padded-blocks": 0,
+    "no-console": 0,
+    "no-shadow": 0,
+    "semi": 0,
+    "react/no-unused-prop-types": 0,
+    "max-len": ["error", 140],
+    "arrow-parens": ["error", "always"],
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/*.test.js", "**/stories.js", "webpack.config.js", ".storybook/*.js"]}]
+  },
+  "plugins": [
+    "react"
+  ]
+}
